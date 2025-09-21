@@ -8,6 +8,7 @@ import { Footer } from '@/components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://n8n-guide.com'),
   title: 'n8n-guide.com - 你的n8n工作流自动化学习指南',
   description: '从零开始，掌握n8n工作流自动化。提供系统化的中文教程、实战案例和最佳实践，助你成为自动化专家。',
   keywords: 'n8n, 工作流自动化, n8n教程, 中文教程, 自动化, 工作流, API集成',
